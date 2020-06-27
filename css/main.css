@@ -5,7 +5,6 @@
 }
 
 body{
-	width: 1440px;
 	background-color:  hsl(257, 40%, 49%);
 	background-image: url(../image/bg-desktop.svg);
 
@@ -16,11 +15,15 @@ body{
 	width: 200px;
 }
 .esas{
+	width: 100%;
 	display: flex;
 }
 
 .mockups{
 	margin-left: 60px;
+}
+.mockups img{
+	width: 100%;
 }
 .content{
 	color: #fff;
